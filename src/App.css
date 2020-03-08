@@ -13,8 +13,7 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+.App-header { 
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,6 +23,28 @@
   color: white;
 }
 
+.App-input {
+  border-color: black;
+  border-width: 1px;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.App-input-text {
+  color: gray;
+  margin-top: 5px;
+  font-style: italic;
+  font-size: small;
+}
+
+.App-button {
+  border-color: black;
+  border-width: 1px;
+  border-radius: 3px;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: cornflowerblue;
+}
 .App-link {
   color: #61dafb;
 }
